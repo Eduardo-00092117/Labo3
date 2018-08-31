@@ -16,6 +16,9 @@ table{
 tr > td{
     width: 100px;
     height: 100px;
+    text-align: center;
+    align-content: center;
+    padding: 0;
 }
 
 .white{
@@ -24,15 +27,21 @@ tr > td{
 
 .black{
     background: black;
+    color:white;
 }
 
-td > div > p{
-    visibility: visible;
-    background: rgba(255, 0, 0, 0.5);
-}
-
-td > div > p{
+div{
+    height: 100%;
+    margin: 0;
+    margin-top: -16px;
     visibility: hidden;
+}
+
+td:hover > div{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    background: rgb(255,0,0,0.5)
 }
 
 
