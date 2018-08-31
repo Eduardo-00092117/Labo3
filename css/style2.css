@@ -1,0 +1,42 @@
+body{
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+table{
+    margin: 10px auto;
+    border: 2px solid black;
+    border-spacing: 0;
+}
+
+tr > td{
+    width: 100px;
+    height: 100px;
+}
+
+.white{
+    background: white;
+}
+
+.black{
+    background: black;
+}
+
+td > div > p{
+    visibility: visible;
+    background: rgba(255, 0, 0, 0.5);
+}
+
+td > div > p{
+    visibility: hidden;
+}
+
+
+
+/*tr > td:nth-child(even){
+    background: red;
+}*/
